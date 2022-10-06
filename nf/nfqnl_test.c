@@ -12,7 +12,11 @@
 int is_tcp = 0;
 
 void dump(unsigned char* buf, int size) { // data와 ret를 확인하는 함수.패킷 데이터가 출력되는 것을 볼 수 있음. ip 헤더부터 시작
+<<<<<<< HEAD
 	struct libnet_ipv4_hdr *ipv4 = (struct libnet_ipv4_hdr *) (buf); //libnet 사용
+=======
+	struct libnet_ipv4_hdr *ipv4 = (struct libnet_ipv4_hdr *) (buf); //libent 사용
+>>>>>>> d3040ce97a1e239630328a81d6f138d6833d936b
     struct libnet_tcp_hdr *tcp = (struct libnet_tcp_hdr *) (buf + sizeof(*ipv4));
     
     uint32_t sip = htonl(ipv4->ip_src.s_addr);
