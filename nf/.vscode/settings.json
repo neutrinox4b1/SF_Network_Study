@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "linux_nfnetlink.h": "c",
+        "stdlib.h": "c",
+        "libnfnetlink.h": "c",
+        "linux_nfnetlink_queue.h": "c"
+    }
+}
