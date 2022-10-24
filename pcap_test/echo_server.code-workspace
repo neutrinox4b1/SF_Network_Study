@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../echo_server"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
